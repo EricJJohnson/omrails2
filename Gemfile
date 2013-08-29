@@ -9,6 +9,8 @@ group :production do
     gem 'pg'
 end
 
+ruby '2.0.0'
+
 group :development, :test do
     gem 'sqlite3'
 end
