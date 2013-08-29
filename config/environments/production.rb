@@ -27,7 +27,7 @@ Omrails2::Application.configure do
   # config.assets.css_compressor = :sass
 
   # Do not fallback to assets pipeline if a precompiled asset is missed.
-  config.assets.compile = true#Eric Changed 8.28.13 7:14 pm
+  config.assets.compile = false
 
   # Generate digests for assets URLs.
   config.assets.digest = true
